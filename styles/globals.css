@@ -1,9 +1,9 @@
 /* Глобальные стили для проекта, их можно дополнять и менять по желанию */
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: 'IBM Plex Mono', sans-serif;
 }
 
 body {
@@ -36,7 +36,27 @@ picture {
 button,
 a {
   color: currentColor;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
 }
+
+
+p,
+span,
+ul,
+ol,
+li,
+a
+ {
+  font-size: var(--typography-size-base);
+  font-weight: var(--typography-weight-regular);
+  line-height: var(--line-height-base);
+}
+
+button {
+  font-size: var(--typography-size-base);
+  font-weight: var(--typography-weight-regular);
+  line-height: var(--line-height-button);
+}
+
+
+
+

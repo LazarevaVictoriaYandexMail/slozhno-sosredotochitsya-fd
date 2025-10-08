@@ -1,4 +1,17 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --heading-accent: #db00ff;
+  --bg-color: #000026;
+  --bg-image: url("../images/cover-image-dark.png");
+  --text: #f1b2ce;
+  --accent: #ff0070;
+  --section-accent-color: var(--accent);
+  --button-color: var(--accent);
+  --heading-sec: #000028;
+  --size-base: 18px;
+  --size-h: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --weight-reg: 400;
+  --weight-bold: 700;
+  --lh-base: 23.4px;
+  --lh-btn: 18px;
+  --rec-decoration-visibility: visible;
+}
