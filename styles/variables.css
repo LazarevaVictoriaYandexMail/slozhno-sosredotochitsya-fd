@@ -6,12 +6,19 @@
   --accent: #ff0070;
   --section-accent-color: var(--accent);
   --button-color: var(--accent);
+  --button-hover-border-color: #FF007066;
   --heading-sec: #000028;
   --size-base: 18px;
-  --size-h: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --size-s: 116px;
+  --size-m: 120px;
+  --size-l: 157px;
   --weight-reg: 400;
   --weight-bold: 700;
   --lh-base: 23.4px;
   --lh-btn: 18px;
   --rec-decoration-visibility: visible;
+
+  --typography-size-base: 18px;
+  --typography-weight-regular: 400;
+  --line-height-base: 23.4px;
 }
