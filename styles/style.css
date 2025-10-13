@@ -241,11 +241,11 @@ a:focus {
     grid-template-rows: auto;
   }
 
-  .direction-vertical {
+  .direction {
     grid-template-columns: auto;
   }
 
-  .direction-vertical .section-title {
+  .direction .section-title {
     max-width: 236px;
   }
 
@@ -307,16 +307,16 @@ a:focus {
     grid-template-columns: 314px 1fr;
   }
 
-  .content-section.direction-vertical {
+  .content-section.direction {
     grid-template-columns: auto;
   }
 
-  .direction-vertical > .article-block {
+  .direction > .article-block {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .direction-vertical .section-title {
+  .direction .section-title {
     max-width: 315px;
   }
 
