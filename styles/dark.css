@@ -1,5 +1,19 @@
-@media (prefers-color-scheme: dark) {
 :root.theme-dark {
+	color-scheme: dark;
+	--heading-accent: #db00ff;
+	--bg-color: #000026;
+	--bg-image: url("../images/cover-image-dark.png");
+	--text: #f1b2ce;
+	--accent: #ff0070;
+	--section-accent-color: var(--accent);
+	--button-color: var(--accent);
+	--button-hover-border-color: #FF007066;
+	--heading-sec: #000028;
+}
+
+
+@media (prefers-color-scheme: dark) {
+:root {
 	 color-scheme: dark;
 	--heading-accent: #db00ff;
 	--bg-color: #000026;

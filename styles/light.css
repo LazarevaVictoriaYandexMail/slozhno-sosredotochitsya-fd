@@ -1,5 +1,19 @@
+:root.theme-light {
+  color-scheme: light;
+  --heading-accent: #ffc2e6;
+  --bg-color: #fdf2f7;
+  --bg-image: url("../images/cover-image-light.png");
+  --text: #353430;
+  --accent: #ff8dcb;
+  --section-accent-color: var(--text);
+  --button-hover-border-color: #32312d66;
+  --button-color: var(--text);
+  --heading-sec: var(--text);
+}
+
 @media (prefers-color-scheme: light) {
-  :root.theme-light {
+  :root {
+    color-scheme: light;
     --heading-accent: #ffc2e6;
     --bg-color: #fdf2f7;
     --bg-image: url("../images/cover-image-light.png");
