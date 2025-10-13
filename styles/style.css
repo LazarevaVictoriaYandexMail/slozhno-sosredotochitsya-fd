@@ -326,20 +326,3 @@ a:focus {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color-scheme: light;
-  }
-}
-
-@media (prefers-color-scheme: no-preference) {
-  :root {
-    color-scheme: light;
-  }
-}

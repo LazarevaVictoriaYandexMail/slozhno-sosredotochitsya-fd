@@ -1,18 +1,13 @@
-:root.theme-light {
-  --heading-accent: #ffc2e6;
-  --bg-color: #fdf2f7;
-  --bg-image: url("../images/cover-image-light.png");
-  --text: #353430;
-  --accent: #ff8dcb;
-  --section-accent-color: var(--text);
-  --button-hover-border-color: #32312D66;
-  --button-color: var(--text);
-  --heading-sec: var(--text);
-  --size-base: 18px;
-  --size-h: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --weight-reg: 400;
-  --weight-bold: 700;
-  --lh-base: 23.4px;
-  --lh-btn: 18px;
-  --rec-decoration-visibility: hidden;
+@media (prefers-color-scheme: light) {
+  :root.theme-light {
+    --heading-accent: #ffc2e6;
+    --bg-color: #fdf2f7;
+    --bg-image: url("../images/cover-image-light.png");
+    --text: #353430;
+    --accent: #ff8dcb;
+    --section-accent-color: var(--text);
+    --button-hover-border-color: #32312d66;
+    --button-color: var(--text);
+    --heading-sec: var(--text);
+  }
 }
