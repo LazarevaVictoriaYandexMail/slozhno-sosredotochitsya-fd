@@ -6,6 +6,7 @@
   --accent: #ff8dcb;
   --section-accent-color: var(--text);
   --button-hover-border-color: #32312d66;
+
   --button-color: var(--text);
   --heading-sec: var(--text);
   --size-base: 18px;
@@ -16,11 +17,10 @@
   --weight-bold: 700;
   --lh-base: 23.4px;
   --lh-btn: 18px;
-  --rec-decoration-visibility: hidden;
-
   --typography-size-base: 18px;
   --typography-weight-regular: 400;
   --line-height-base: 23.4px;
+  --rec-decoration-visibility: hidden;
 }
 
 @media (prefers-color-scheme: no-preference) {

@@ -9,6 +9,7 @@
 	--button-color: var(--accent);
 	--button-hover-border-color: #FF007066;
 	--heading-sec: #000028;
+	--rec-decoration-visibility: visible;
 }
 
 
@@ -32,6 +33,6 @@
 	--weight-bold: 700;
 	--lh-base: 23.4px;
 	--lh-btn: 18px;
-	--rec-decoration-visibility: visible;
+	
  }
 }
