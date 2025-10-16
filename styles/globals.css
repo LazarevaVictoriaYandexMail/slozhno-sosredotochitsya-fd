@@ -36,6 +36,7 @@ picture {
 button,
 a {
   color: currentColor;
+  cursor: pointer;
 }
 
 
@@ -55,7 +56,10 @@ button {
   font-size: var(--typography-size-base);
   font-weight: var(--typography-weight-regular);
   line-height: var(--line-height-button);
+
 }
+
+
 
 
 

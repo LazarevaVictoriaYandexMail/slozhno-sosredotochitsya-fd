@@ -25,5 +25,7 @@
     --button-hover-border-color: #32312d66;
     --button-color: var(--text);
     --heading-sec: var(--text);
+    --rec-decoration-visibility: hidden;
+
   }
 }
